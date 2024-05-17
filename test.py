@@ -14,7 +14,7 @@ if not os.path.exists('db.json'):
 
 app = QApplication([])
 mw = QWidget()
-mw.setWindowTitle('SmartNotes')
+mw.setWindowTitle('Умные заметки')
 
 # ! column 1
 field_text = QTextEdit()
